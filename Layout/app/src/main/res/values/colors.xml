@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B41616</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="botao_cadastrar">#721368</color>
+    <color name="BackgroundColor">#020000</color>
+</resources>

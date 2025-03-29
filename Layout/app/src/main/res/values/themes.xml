@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Layout" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#290909</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/BackgroundColor</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Layout" parent="Base.Theme.Layout" />
+</resources>
