@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Security Center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnLockApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 Bloquear App" />
+
+        <Button
+            android:id="@+id/btnSilentMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔕 Ativar Modo Silencioso"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔊 Acionar Alarme"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnGetLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Salvar Última Localização"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnIntruderSelfie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🕵️ Tirar Selfie do Intruso"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnChargerAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔌 Alerta de Carregador"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

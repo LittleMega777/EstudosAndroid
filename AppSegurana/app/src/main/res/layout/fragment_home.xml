@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtDeviceModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Modelo:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtManufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Fabricante:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAndroidVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Versão do Android:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtDeviceId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Android ID:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Armazenamento:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Bateria:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="25dp"
+            android:text="Conexão:"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>
