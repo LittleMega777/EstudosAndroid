@@ -23,13 +23,13 @@
             android:id="@+id/btnLockApp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🔒 Bloquear App" />
+            android:text="🔒 Mapa de calor (IDEIA)" />
 
         <Button
-            android:id="@+id/btnSilentMode"
+            android:id="@+id/btnGoodPratices"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🔕 Ativar Modo Silencioso"
+            android:text="🛡️ Boas Praticas"
             android:layout_marginTop="8dp"/>
 
         <Button
@@ -50,14 +50,14 @@
             android:id="@+id/btnIntruderSelfie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🕵️ Tirar Selfie do Intruso"
+            android:text="🕵️ Tirar Selfie do Intruso (IDEIA)"
             android:layout_marginTop="8dp"/>
 
         <Button
             android:id="@+id/btnChargerAlert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="🔌 Alerta de Carregador"
+            android:text="🔌 Alerta de Carregador (IDEIA)"
             android:layout_marginTop="8dp"/>
 
     </LinearLayout>
